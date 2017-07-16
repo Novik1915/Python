@@ -4,7 +4,7 @@ Implementation of gradient descent algorithm for minimizing cost of a linear hyp
 import numpy
 
 # List of input, output pairs
-train_data = (((5, 2, 3), 15), ((6, 5, 9), 25),
+train_data = (((4, 2, 3), 15), ((6, 5, 9), 25),
               ((11, 12, 13), 41), ((1, 1, 1), 8), ((11, 12, 13), 41))
 test_data = (((515, 22, 13), 555), ((61, 35, 49), 150))
 parameter_vector = [2, 4, 1, 5]
